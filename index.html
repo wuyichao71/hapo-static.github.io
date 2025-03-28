@@ -6,15 +6,16 @@
     <table>
       <tr>
         <td>
-          words<br>
-          <input type="text" id="words"><br>
-          <botton onclick="showMessage()" id="botton">click</botton><br>
+          <p id="output">output</p><br>
+          <input type="text" id="input"><br>
+          <button onclick="showMessage()" id="botton">click</button><br>
         </td>
       </tr>
     </table>
     <script>
       function showMessage() {
-        document.getElementById("words").innerText = "Hello, world!";
+        value = document.getElementById("input").value;
+        document.getElementById("output").innerText = value;
       }
     </script>
   </body>
