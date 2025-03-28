@@ -8,8 +8,14 @@
         <td>
           words<br>
           <input type="text" id="words"><br>
+          <botton onclick="showMessage()" id="botton">click</botton><br>
         </td>
       </tr>
     </table>
+    <script>
+      function showMessage() {
+        document.getElementById("words").innerText = "Hello, world!";
+      }
+    </script>
   </body>
 </html>
