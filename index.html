@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<head>hapo-blog</head>
+<head>
+  hapo's blog
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="function.js"></script>
+</head>
 <html>
-  <h1>Hello, world</h1>
   <body>
+  <p>
+    <textarea class="textresult" id="output"></textarea>
+  </p>
     <table>
       <tr>
         <td>
-          <p id="output">output</p><br>
           <input type="text" id="input"><br>
           <button onclick="showMessage()" id="botton">click</button><br>
         </td>
       </tr>
     </table>
-    <script>
-      function showMessage() {
-        value = document.getElementById("input").value;
-        document.getElementById("output").innerText = value;
-      }
-    </script>
   </body>
 </html>
