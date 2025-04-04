@@ -1,4 +1,12 @@
-.textresult {
-  height: 600px;
-  width: 800px;
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.centerImage {
+  display: block;
+  margin: 0 auto;
 }
